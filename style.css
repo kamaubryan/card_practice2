@@ -6,6 +6,9 @@
 
 body {
   background-color: white;
+  align-items: center;
+ 
+  padding: auto;
 }
 
 .attribution {
@@ -23,10 +26,10 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 70%;
+  height: 100vh;
 }
 
-.card1 {
+.fcard {
   background-color: hsl(31, 77%, 52%);
   width: 260px;
   /* text-align: center; */
@@ -34,18 +37,18 @@ body {
   padding: 45px;
 }
 
-.card1 img {
+.fcard img {
   width: auto;
   height: auto;
 }
 
-.card1 h2 {
+.fcard h2 {
   color: hsl(0, 0%, 95%);
   margin-top: 20px;
   font-size: 40px;
 }
 
-.card1 p {
+.fcard p {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 20px;
   line-height: 35px;
@@ -53,7 +56,7 @@ body {
   font-family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
 }
 
-.card1 button {
+.fcard button {
   margin-top: 40px;
   /* height: 40px; */
   font-size: 20px;
@@ -61,7 +64,7 @@ body {
   border-radius: 25px;
   box-sizing: border-box;
 }
-.card2 {
+.scard {
   width: 260px;
   background-color: hsl(184, 100%, 22%);
   /* text-align: center; */
@@ -69,18 +72,19 @@ body {
   padding: 45px;
 }
 
-.card2 img {
+.scard img {
   width: auto;
   height: auto;
+
 }
 
-.card2 h2 {
+.scard h2 {
   color: hsl(0, 0%, 95%);
   margin-top: 20px;
   font-size: 40px;
 }
 
-.card2 p {
+.scard p {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 20px;
   margin-top: 20px;
@@ -88,7 +92,7 @@ body {
   font-family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
 }
 
-.card2 button {
+.scard button {
   margin-top: 40px;
   /* height: 40px; */
   font-size: 20px;
@@ -98,25 +102,25 @@ body {
 }
 
 
-.card3 {
+.tcard {
   width: 260px;
   background-color: hsl(179, 100%, 13%);
   height: 400px;
   padding: 45px;
 }
 
-.card3 img {
+.tcard img {
   width: auto;
   height: auto;
 }
 
-.card3 h2 {
+.tcard h2 {
   color: hsl(0, 0%, 95%);
   margin-top: 20px;
   font-size: 40px;
 }
 
-.card3 p {
+.tcard p {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 20px;
   line-height: 35px;
@@ -124,7 +128,7 @@ body {
   font-family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
 }
 
-.card3 button {
+.tcard button {
   margin-top: 40px;
   /* height: 40px; */
   font-size: 20px;
